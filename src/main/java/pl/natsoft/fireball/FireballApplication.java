@@ -14,7 +14,6 @@ public class FireballApplication {
      */
     @RequestMapping("/_ah/health")
     public String healthy() {
-        // Message body required though ignored
         return "Still surviving.";
     }
 
